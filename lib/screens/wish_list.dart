@@ -1,8 +1,6 @@
 import 'package:cards_app/componets/wish_list_card.dart';
 import 'package:cards_app/models/items_model.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 List<Products>? WishList = [];
 
@@ -23,7 +21,7 @@ class _WishListScreenState extends State<WishListScreen> {
             onPressed: () => Navigator.pop(context),
             icon: Icon(Icons.arrow_back),
           ),
-          backgroundColor: Colors.red.shade300,
+          backgroundColor: Colors.red.shade400,
           title: Text('whish List'),
           actions: [IconButton(onPressed: () {}, icon: Icon(Icons.add))],
         ),
